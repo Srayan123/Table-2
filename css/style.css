@@ -1,0 +1,20 @@
+table {
+    border-collapse: separate ;
+    border-spacing: 5px;
+    width: 550px;
+    height: 220px;
+}
+.center {
+    text-align: center;
+}
+.Parent {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    }
+.Child {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+}
